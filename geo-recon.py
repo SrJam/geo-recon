@@ -17,10 +17,6 @@ from modules.checkIp import check
 from modules.nmapVerify import verify
 from modules.myip import myIp
 
-
-
-
-
 syA = sys.argv
 
 def zero(syA):
@@ -55,7 +51,8 @@ if (len(sys.argv) > 1):
             os.system('clear')            
             welcome()
             listCommand()
-   if syA1 == 'localhost':
+
+   elif syA1 == 'localhost':
       ip = myIp()
       os.system('clear')
       welcome()
@@ -64,15 +61,14 @@ if (len(sys.argv) > 1):
       check(syA1)
 
 
-
-
-         
    else:
       os.system('clear')
       welcome()
       print(Fore.WHITE + '\n Wait a minute.....')
       getGeo(syA1)
       check(syA1)
+
+   
 
 if (len(sys.argv) > 2):
    syA1 = sys.argv[1]
