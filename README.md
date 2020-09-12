@@ -84,6 +84,7 @@ The IP Address 138.121.128.19 Is Malicious and well known for SSH Bruteforce Att
 - NMAP support with the --nmap or -n option after the IP number.
 - Longitudinal latitude correction.
 - Organization for the creation of new modules and separate and organized APIs.
+- Add API MyIP for self consult, use: python3 geo-recon.py localhost (With -n or --nmap works too)
 
 
 # To Do List
