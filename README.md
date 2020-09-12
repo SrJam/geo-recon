@@ -3,8 +3,9 @@ An OSINT CLI tool desgined to fast track IP Reputation and Geo-locaton look up f
 
 # Pre-requeriments of Linux
 
-* Python3 (```bash sudo apt install python3 ```)
-* Pip3 (```bash sudo apt install python3-pip ```)
+* Python3 ```bash sudo apt install python3 ```
+* Pip3 ```bash sudo apt install python3-pip ```
+
 If you don't use Debian or Ubuntu, search for their respective platforms (like yum and pacman)
 
 # Setup
