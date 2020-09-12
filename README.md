@@ -8,21 +8,21 @@ This tool is compactible with:
 
 # Linux Setup
 ```bash
-git clone https://github.com/radioactivetobi/geo-recon.git
+git clone https://github.com/SrJam/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
 pip install -r requirements.txt
 ```
 # Termux Setup
 ```bash
-git clone https://github.com/radioactivetobi/geo-recon.git
+git clone https://github.com/SrJam/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
 pip install -r requirements.txt
 ```
 # Sample Syntax Linux and Termux
 ```bash
-root@kali:~/geo-recon# python geo-recon.py 138.121.128.19
+root@kali:~/geo-recon# python3 geo-recon.py 138.121.128.19
 
 ░██████╗░███████╗░█████╗░  ██████╗░███████╗░█████╗░░█████╗░███╗░░██╗
 ██╔════╝░██╔════╝██╔══██╗  ██╔══██╗██╔════╝██╔══██╗██╔══██╗████╗░██║
