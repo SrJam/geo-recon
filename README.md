@@ -1,6 +1,12 @@
 # Geo-Recon
 An OSINT CLI tool desgined to fast track IP Reputation and Geo-locaton look up for Security Analysts.
 
+# Pre-requeriments of Linux
+
+* Python3 (sudo apt install python3)
+* Pip3 (sudo apt install python3-pip)
+If you don't use Debian or Ubuntu, search for their respective platforms (like yum and pacman)
+
 # Setup
 This tool is compactible with:
 * Any Linux Operating System (Debian, Ubuntu, CentOS)
@@ -11,14 +17,18 @@ This tool is compactible with:
 git clone https://github.com/SrJam/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
-pip install -r requirements.txt
+sudo apt install python3-pip
+pip3 install -r requirements.txt
 ```
-# Termux Setup
+# Termux Setup 
+
+[Link about python and pip on Termux] (https://wiki.termux.com/wiki/Python) that comes with the pkg python
+
 ```bash
 git clone https://github.com/SrJam/geo-recon.git
 cd geo-recon
 chmod +x geo-recon.py
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 # Sample Syntax Linux and Termux
 ```bash

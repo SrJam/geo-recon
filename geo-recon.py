@@ -1,7 +1,7 @@
 import sys
 if sys.version_info<(3,0):
    sys.stderr.write("\nYou need python 3.0 or later to run this script\n")
-   sys.stderr.write("Please update and make sure you use the command python3 geo-recon.py\n\n")
+   sys.stderr.write("Please update and make sure you use the command python3 geo-recon.py <IP NUMBER> <COMMAND>\n\n")
    sys.exit(0)
 
 import requests
@@ -15,6 +15,9 @@ from modules.welcome import welcome
 from modules.getData import getGeo
 from modules.checkIp import check
 from modules.nmapVerify import verify
+from modules.myip import myIp
+
+
 
 
 
@@ -30,6 +33,9 @@ def zero(syA):
       verify()
 
 zero(syA)
+
+
+
 
 
 #Test for use and execute
@@ -49,6 +55,17 @@ if (len(sys.argv) > 1):
             os.system('clear')            
             welcome()
             listCommand()
+   if syA1 == 'localhost':
+      ip = myIp()
+      os.system('clear')
+      welcome()
+      syA1 = ip
+      getGeo(syA1)
+      check(syA1)
+
+
+
+
          
    else:
       os.system('clear')
@@ -61,3 +78,13 @@ if (len(sys.argv) > 2):
    syA1 = sys.argv[1]
    syA2 = sys.argv[2]
    command(syA2, syA1)
+
+
+
+
+
+
+
+
+
+         
