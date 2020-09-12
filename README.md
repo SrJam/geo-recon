@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 ```
 # Termux Setup 
 
-[Link about python and pip on Termux] (https://wiki.termux.com/wiki/Python) that comes with the pkg python
+[Link about python and pip on Termux](https://wiki.termux.com/wiki/Python) that comes with the pkg python
 
 ```bash
 git clone https://github.com/SrJam/geo-recon.git
